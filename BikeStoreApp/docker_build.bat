@@ -1,0 +1,1 @@
+docker build -f .\BikeStores.API\Dockerfile -t bikestore_img .

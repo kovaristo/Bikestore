@@ -1,0 +1,49 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v6.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v6.0": {
+      "BikeStores.Services.Abstractions/1.0.0": {
+        "dependencies": {
+          "BikeStores.Contracts": "1.0.0"
+        },
+        "runtime": {
+          "BikeStores.Services.Abstractions.dll": {}
+        }
+      },
+      "BikeStores.Common/1.0.0": {
+        "runtime": {
+          "BikeStores.Common.dll": {}
+        }
+      },
+      "BikeStores.Contracts/1.0.0": {
+        "dependencies": {
+          "BikeStores.Common": "1.0.0"
+        },
+        "runtime": {
+          "BikeStores.Contracts.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "BikeStores.Services.Abstractions/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "BikeStores.Common/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "BikeStores.Contracts/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

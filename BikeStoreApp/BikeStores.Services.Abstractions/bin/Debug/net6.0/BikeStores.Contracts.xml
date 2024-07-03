@@ -1,0 +1,146 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>BikeStores.Contracts</name>
+    </assembly>
+    <members>
+        <member name="P:BikeStores.Contracts.BaseAuditableDTO.WhenCreated">
+            <summary>
+            Data utworzenia
+            </summary>
+        </member>
+        <member name="P:BikeStores.Contracts.BaseAuditableDTO.CreatedBy">
+            <summary>
+            Kto utworzył
+            </summary>
+        </member>
+        <member name="P:BikeStores.Contracts.BaseAuditableDTO.WhenModified">
+            <summary>
+            Data modyfikacji
+            </summary>
+        </member>
+        <member name="P:BikeStores.Contracts.BaseAuditableDTO.ModifiedBy">
+            <summary>
+            Kto zmodyfikował
+            </summary>
+        </member>
+        <member name="T:BikeStores.Contracts.OrderRequest`1">
+            <summary>
+            
+            </summary>
+            <typeparam name="T"></typeparam>
+        </member>
+        <member name="P:BikeStores.Contracts.OrderRequest`1.OrderField">
+            <summary>
+            Pole sortowania
+            </summary>
+        </member>
+        <member name="P:BikeStores.Contracts.OrderRequest`1.Ascending">
+            <summary>
+            Kierunek sortowania
+            </summary>
+        </member>
+        <member name="T:BikeStores.Contracts.PagingRequest`1">
+            <summary>
+            Parametry stronicowania
+            </summary>
+            <typeparam name="T"></typeparam>
+        </member>
+        <member name="P:BikeStores.Contracts.PagingRequest`1.PageIndex">
+            <summary>
+            Index strony
+            </summary>
+        </member>
+        <member name="P:BikeStores.Contracts.PagingRequest`1.PageSize">
+            <summary>
+            Rozmiar strony
+            </summary>
+        </member>
+        <member name="M:BikeStores.Contracts.PagingRequest`1.StartIndex">
+            <summary>
+            Index pierwszego rekordu strony
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="P:BikeStores.Contracts.PagingResponse`1.PageIndex">
+            <summary>
+            Numer strony
+            </summary>
+        </member>
+        <member name="P:BikeStores.Contracts.PagingResponse`1.PageSize">
+            <summary>
+            Rozmiar strony
+            </summary>
+        </member>
+        <member name="P:BikeStores.Contracts.PagingResponse`1.TotalRecords">
+            <summary>
+            Liczba wszystkich rekordow
+            </summary>
+        </member>
+        <member name="P:BikeStores.Contracts.PagingResponse`1.TotalPages">
+            <summary>
+            Liczba wszystkich stron
+            </summary>
+        </member>
+        <member name="P:BikeStores.Contracts.PagingResponse`1.Data">
+            <summary>
+            Dane
+            </summary>
+        </member>
+        <member name="T:BikeStores.Contracts.Production.Brands.BrandDTO">
+            <summary>
+            Marka produktu
+            </summary>
+        </member>
+        <member name="P:BikeStores.Contracts.Production.Brands.BrandDTO.Id">
+            <summary>
+            Identyfikator marki
+            </summary>
+        </member>
+        <member name="P:BikeStores.Contracts.Production.Brands.BrandDTO.Name">
+            <summary>
+            Nazwa marki
+            </summary>
+        </member>
+        <member name="P:BikeStores.Contracts.Production.Brands.BrandDTO.ProductsCount">
+            <summary>
+            Liczba produktow
+            </summary>
+        </member>
+        <member name="T:BikeStores.Contracts.Production.Brands.BrandFilterRequest">
+            <summary>
+            Parametry filtowania marki
+            </summary>
+        </member>
+        <member name="P:BikeStores.Contracts.Production.Brands.BrandFilterRequest.Name">
+            <summary>
+            Nazwa marki
+            </summary>
+        </member>
+        <member name="T:BikeStores.Contracts.Production.Brands.BrandForCreateOrUpdateDTO">
+            <summary>
+            Dane marki do utworzenia
+            </summary>
+        </member>
+        <member name="P:BikeStores.Contracts.Production.Brands.BrandForCreateOrUpdateDTO.Name">
+            <summary>
+            Nazwa marki
+            </summary>
+        </member>
+        <member name="P:BikeStores.Contracts.Production.Categories.CategoryDTO.Id">
+            <summary>
+            Category's identifier
+            </summary>
+        </member>
+        <member name="P:BikeStores.Contracts.Production.Categories.CategoryDTO.Name">
+            <summary>
+            Category's name
+            </summary>
+        </member>
+        <member name="P:BikeStores.Contracts.Production.Categories.CategoryDTO.ProductsCount">
+            <summary>
+            Product in category count
+            </summary>
+        </member>
+    </members>
+</doc>

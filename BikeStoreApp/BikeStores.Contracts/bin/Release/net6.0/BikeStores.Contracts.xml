@@ -1,0 +1,39 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>BikeStores.Contracts</name>
+    </assembly>
+    <members>
+        <member name="T:BikeStores.Contracts.OrderRequest`1">
+            <summary>
+            
+            </summary>
+            <typeparam name="T"></typeparam>
+        </member>
+        <member name="P:BikeStores.Contracts.OrderRequest`1.OrderField">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:BikeStores.Contracts.OrderRequest`1.Ascending">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:BikeStores.Contracts.Production.Categories.CategoryDTO.Id">
+            <summary>
+            Category's identifier
+            </summary>
+        </member>
+        <member name="P:BikeStores.Contracts.Production.Categories.CategoryDTO.Name">
+            <summary>
+            Category's name
+            </summary>
+        </member>
+        <member name="P:BikeStores.Contracts.Production.Categories.CategoryDTO.ProductsCount">
+            <summary>
+            Product in category count
+            </summary>
+        </member>
+    </members>
+</doc>

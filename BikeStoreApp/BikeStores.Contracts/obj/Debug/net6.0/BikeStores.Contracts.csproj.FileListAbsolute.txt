@@ -1,0 +1,17 @@
+D:\GitHub\Bikestore\BikeStoreApp\BikeStores.Contracts\bin\Debug\net6.0\BikeStores.Contracts.deps.json
+D:\GitHub\Bikestore\BikeStoreApp\BikeStores.Contracts\bin\Debug\net6.0\BikeStores.Contracts.dll
+D:\GitHub\Bikestore\BikeStoreApp\BikeStores.Contracts\bin\Debug\net6.0\BikeStores.Contracts.pdb
+D:\GitHub\Bikestore\BikeStoreApp\BikeStores.Contracts\bin\Debug\net6.0\BikeStores.Contracts.xml
+D:\GitHub\Bikestore\BikeStoreApp\BikeStores.Contracts\bin\Debug\net6.0\BikeStores.Common.dll
+D:\GitHub\Bikestore\BikeStoreApp\BikeStores.Contracts\bin\Debug\net6.0\BikeStores.Common.pdb
+D:\GitHub\Bikestore\BikeStoreApp\BikeStores.Contracts\obj\Debug\net6.0\BikeStores.Contracts.csproj.AssemblyReference.cache
+D:\GitHub\Bikestore\BikeStoreApp\BikeStores.Contracts\obj\Debug\net6.0\BikeStores.Contracts.GeneratedMSBuildEditorConfig.editorconfig
+D:\GitHub\Bikestore\BikeStoreApp\BikeStores.Contracts\obj\Debug\net6.0\BikeStores.Contracts.AssemblyInfoInputs.cache
+D:\GitHub\Bikestore\BikeStoreApp\BikeStores.Contracts\obj\Debug\net6.0\BikeStores.Contracts.AssemblyInfo.cs
+D:\GitHub\Bikestore\BikeStoreApp\BikeStores.Contracts\obj\Debug\net6.0\BikeStores.Contracts.csproj.CoreCompileInputs.cache
+D:\GitHub\Bikestore\BikeStoreApp\BikeStores.Contracts\obj\Debug\net6.0\BikeStor.6AE8D653.Up2Date
+D:\GitHub\Bikestore\BikeStoreApp\BikeStores.Contracts\obj\Debug\net6.0\BikeStores.Contracts.dll
+D:\GitHub\Bikestore\BikeStoreApp\BikeStores.Contracts\obj\Debug\net6.0\refint\BikeStores.Contracts.dll
+D:\GitHub\Bikestore\BikeStoreApp\BikeStores.Contracts\obj\Debug\net6.0\BikeStores.Contracts.xml
+D:\GitHub\Bikestore\BikeStoreApp\BikeStores.Contracts\obj\Debug\net6.0\BikeStores.Contracts.pdb
+D:\GitHub\Bikestore\BikeStoreApp\BikeStores.Contracts\obj\Debug\net6.0\ref\BikeStores.Contracts.dll

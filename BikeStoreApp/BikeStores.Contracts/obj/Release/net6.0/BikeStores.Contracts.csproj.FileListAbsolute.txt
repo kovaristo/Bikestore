@@ -1,0 +1,17 @@
+D:\GIT\BikeStores\BikeStores.Contracts\bin\Release\net6.0\BikeStores.Contracts.deps.json
+D:\GIT\BikeStores\BikeStores.Contracts\bin\Release\net6.0\BikeStores.Contracts.dll
+D:\GIT\BikeStores\BikeStores.Contracts\bin\Release\net6.0\BikeStores.Contracts.pdb
+D:\GIT\BikeStores\BikeStores.Contracts\bin\Release\net6.0\BikeStores.Contracts.xml
+D:\GIT\BikeStores\BikeStores.Contracts\bin\Release\net6.0\BikeStores.Common.dll
+D:\GIT\BikeStores\BikeStores.Contracts\bin\Release\net6.0\BikeStores.Common.pdb
+D:\GIT\BikeStores\BikeStores.Contracts\obj\Release\net6.0\BikeStores.Contracts.csproj.AssemblyReference.cache
+D:\GIT\BikeStores\BikeStores.Contracts\obj\Release\net6.0\BikeStores.Contracts.GeneratedMSBuildEditorConfig.editorconfig
+D:\GIT\BikeStores\BikeStores.Contracts\obj\Release\net6.0\BikeStores.Contracts.AssemblyInfoInputs.cache
+D:\GIT\BikeStores\BikeStores.Contracts\obj\Release\net6.0\BikeStores.Contracts.AssemblyInfo.cs
+D:\GIT\BikeStores\BikeStores.Contracts\obj\Release\net6.0\BikeStores.Contracts.csproj.CoreCompileInputs.cache
+D:\GIT\BikeStores\BikeStores.Contracts\obj\Release\net6.0\BikeStores.Contracts.csproj.CopyComplete
+D:\GIT\BikeStores\BikeStores.Contracts\obj\Release\net6.0\BikeStores.Contracts.dll
+D:\GIT\BikeStores\BikeStores.Contracts\obj\Release\net6.0\refint\BikeStores.Contracts.dll
+D:\GIT\BikeStores\BikeStores.Contracts\obj\Release\net6.0\BikeStores.Contracts.xml
+D:\GIT\BikeStores\BikeStores.Contracts\obj\Release\net6.0\BikeStores.Contracts.pdb
+D:\GIT\BikeStores\BikeStores.Contracts\obj\Release\net6.0\ref\BikeStores.Contracts.dll

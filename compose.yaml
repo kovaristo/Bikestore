@@ -1,0 +1,23 @@
+services:
+  db:
+    container_name: bikestore_db
+    image: mssql2019_custom_img
+    environment:
+      ACCEPT_EULA: Y
+      MSSQL_DB: bikestoredb
+      MSSQL_SA_PASSWORD: P@ssw0rd
+      MSSQL_USER: bikestoreuser
+      MSSQL_PASSWORD: P@ssw0rd
+    ports:
+      - "1433:1433"
+  app:
+    container_name: bikestore_app
+    image: bikestore_img
+    environment:
+      ASPNETCORE_ENVIRONMENT: Development
+      ConnectionStrings__BikeStoresDatabase: Data Source=bikestore_db;Initial Catalog=bikestoredb;User ID=bikestoreuser;Password=P@ssw0rd;TrustServerCertificate=True;
+    ports:
+      - "80:80"
+      - "443:443"
+
+    

@@ -1,0 +1,11 @@
+D:\GIT\BikeStores\BikeStores.Common\bin\Release\net6.0\BikeStores.Common.deps.json
+D:\GIT\BikeStores\BikeStores.Common\bin\Release\net6.0\BikeStores.Common.dll
+D:\GIT\BikeStores\BikeStores.Common\bin\Release\net6.0\BikeStores.Common.pdb
+D:\GIT\BikeStores\BikeStores.Common\obj\Release\net6.0\BikeStores.Common.GeneratedMSBuildEditorConfig.editorconfig
+D:\GIT\BikeStores\BikeStores.Common\obj\Release\net6.0\BikeStores.Common.AssemblyInfoInputs.cache
+D:\GIT\BikeStores\BikeStores.Common\obj\Release\net6.0\BikeStores.Common.AssemblyInfo.cs
+D:\GIT\BikeStores\BikeStores.Common\obj\Release\net6.0\BikeStores.Common.csproj.CoreCompileInputs.cache
+D:\GIT\BikeStores\BikeStores.Common\obj\Release\net6.0\BikeStores.Common.dll
+D:\GIT\BikeStores\BikeStores.Common\obj\Release\net6.0\refint\BikeStores.Common.dll
+D:\GIT\BikeStores\BikeStores.Common\obj\Release\net6.0\BikeStores.Common.pdb
+D:\GIT\BikeStores\BikeStores.Common\obj\Release\net6.0\ref\BikeStores.Common.dll

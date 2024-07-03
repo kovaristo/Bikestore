@@ -1,0 +1,322 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>BikeStores.Presentation</name>
+    </assembly>
+    <members>
+        <member name="M:BikeStores.Presentation.Controllers.Production.BrandsController.GetBrandsAsync(BikeStores.Contracts.Production.Brands.BrandFilterRequest,BikeStores.Contracts.PagingRequest{BikeStores.Contracts.Production.Brands.BrandDTO},System.Threading.CancellationToken)">
+            <summary>
+            Get brands with filtering and paging
+            </summary>
+            <param name="brandFilterRequest">Brand data to filter</param>
+            <param name="pagingRequest">Paging parameters</param>
+            <param name="cancellationToken"></param>
+            <returns></returns>
+        </member>
+        <member name="M:BikeStores.Presentation.Controllers.Production.BrandsController.GetBrandByIdAsync(System.Int32,System.Threading.CancellationToken)">
+            <summary>
+            Get brand with selected id
+            </summary>
+            <param name="brandId">Brand id</param>
+            <param name="cancellationToken"></param>
+            <returns></returns>
+        </member>
+        <member name="M:BikeStores.Presentation.Controllers.Production.BrandsController.CreateBrandAsync(BikeStores.Contracts.Production.Brands.BrandForCreateOrUpdateDTO,System.Threading.CancellationToken)">
+            <summary>
+            Creates brand
+            </summary>
+            <param name="brandCreateRequest">Brand data to create</param>
+            <param name="cancellationToken"></param>
+            <returns></returns>
+        </member>
+        <member name="M:BikeStores.Presentation.Controllers.Production.BrandsController.UpdateBrandAsync(System.Int32,BikeStores.Contracts.Production.Brands.BrandForCreateOrUpdateDTO,System.Threading.CancellationToken)">
+            <summary>
+            Updates selected brand
+            </summary>
+            <param name="brandId">Brand identifier</param>
+            <param name="brandUpdateRequest">Brand data to update</param>
+            <param name="cancellationToken"></param>
+            <returns></returns>
+        </member>
+        <member name="M:BikeStores.Presentation.Controllers.Production.BrandsController.DeleteBrandAsync(System.Int32,System.Threading.CancellationToken)">
+            <summary>
+            Deletes selected brand
+            </summary>
+            <param name="brandId">Brand identifier</param>
+            <param name="cancellationToken"></param>
+            <returns></returns>
+        </member>
+        <member name="M:BikeStores.Presentation.Controllers.Production.CategoriesController.GetCategoriesAsync(BikeStores.Contracts.Production.Categories.CategoryFilterRequest,BikeStores.Contracts.PagingRequest{BikeStores.Contracts.Production.Categories.CategoryDTO},System.Threading.CancellationToken)">
+            <summary>
+            Get categories with filtering and paging
+            </summary>
+            <param name="categoryFilterRequest">Category data to filter</param>
+            <param name="pagingRequest">Paging parameters</param>
+            <param name="cancellationToken"></param>
+            <returns></returns>
+        </member>
+        <member name="M:BikeStores.Presentation.Controllers.Production.CategoriesController.GetCategoryByIdAsync(System.Int32,System.Threading.CancellationToken)">
+            <summary>
+            Gets category with selected id
+            </summary>
+            <param name="categoryId">Category identifier</param>
+            <param name="cancellationToken"></param>
+            <returns></returns>
+        </member>
+        <member name="M:BikeStores.Presentation.Controllers.Production.CategoriesController.CreateCategoryAsync(BikeStores.Contracts.Production.Categories.CategoryForCreateOrUpdateDTO,System.Threading.CancellationToken)">
+            <summary>
+            Creates category
+            </summary>
+            <param name="categoryCreateRequest">Category data to create</param>
+            <param name="cancellationToken"></param>
+            <returns></returns>
+        </member>
+        <member name="M:BikeStores.Presentation.Controllers.Production.CategoriesController.UpdateCategoryAsync(System.Int32,BikeStores.Contracts.Production.Categories.CategoryForCreateOrUpdateDTO,System.Threading.CancellationToken)">
+            <summary>
+            Updates selected category
+            </summary>
+            <param name="categoryId">Category identifier</param>
+            <param name="categoryUpdateRequest">Category data to update</param>
+            <param name="cancellationToken"></param>
+            <returns></returns>
+        </member>
+        <member name="M:BikeStores.Presentation.Controllers.Production.CategoriesController.DeleteCategoryAsync(System.Int32,System.Threading.CancellationToken)">
+            <summary>
+            Deletes selected category
+            </summary>
+            <param name="categoryId">Category identifier</param>
+            <param name="cancellationToken"></param>
+            <returns></returns>
+        </member>
+        <member name="M:BikeStores.Presentation.Controllers.Production.ProductsController.GetProductsAsync(BikeStores.Contracts.Production.Products.ProductFilterRequest,BikeStores.Contracts.PagingRequest{BikeStores.Contracts.Production.Products.ProductDTO},System.Threading.CancellationToken)">
+            <summary>
+            Get products with filtering and paging
+            </summary>
+            <param name="productFilterRequest">Product data to filter</param>
+            <param name="pagingRequest">Paging parameters</param>
+            <param name="cancellationToken"></param>
+            <returns></returns>
+        </member>
+        <member name="M:BikeStores.Presentation.Controllers.Production.ProductsController.GetProductByIdAsync(System.Int32,System.Threading.CancellationToken)">
+            <summary>
+            Get product with selected id
+            </summary>
+            <param name="productId">Product id</param>
+            <param name="cancellationToken"></param>
+            <returns></returns>
+        </member>
+        <member name="M:BikeStores.Presentation.Controllers.Production.ProductsController.CreateProductAsync(BikeStores.Contracts.Production.Products.ProductForCreateOrUpdateDTO,System.Threading.CancellationToken)">
+            <summary>
+            Creates product
+            </summary>
+            <param name="productCreateRequest">Product data to create</param>
+            <param name="cancellationToken"></param>
+            <returns></returns>
+        </member>
+        <member name="M:BikeStores.Presentation.Controllers.Production.ProductsController.UpdateProductAsync(System.Int32,BikeStores.Contracts.Production.Products.ProductForCreateOrUpdateDTO,System.Threading.CancellationToken)">
+            <summary>
+            Updates selected product
+            </summary>
+            <param name="productId">Product identifier</param>
+            <param name="productUpdateRequest">Product data to update</param>
+            <param name="cancellationToken"></param>
+            <returns></returns>
+        </member>
+        <member name="M:BikeStores.Presentation.Controllers.Production.ProductsController.DeleteProductAsync(System.Int32,System.Threading.CancellationToken)">
+            <summary>
+            Deletes selected product
+            </summary>
+            <param name="productId">Product identifier</param>
+            <param name="cancellationToken"></param>
+            <returns></returns>
+        </member>
+        <member name="M:BikeStores.Presentation.Controllers.Sales.CustomersController.GetCustomersAsync(BikeStores.Contracts.Sales.Customers.CustomerFilterRequest,BikeStores.Contracts.PagingRequest{BikeStores.Contracts.Sales.Customers.CustomerDTO},System.Threading.CancellationToken)">
+            <summary>
+            Get customers with filtering and paging
+            </summary>
+            <param name="customerFilterRequest">Customer data to filter</param>
+            <param name="pagingRequest">Paging parameters</param>
+            <param name="cancellationToken"></param>
+            <returns></returns>
+        </member>
+        <member name="M:BikeStores.Presentation.Controllers.Sales.CustomersController.GetCustomerById(System.Int32,System.Threading.CancellationToken)">
+            <summary>
+            Get customer with selected id
+            </summary>
+            <param name="customerId">Customer id</param>
+            <param name="cancellationToken"></param>
+            <returns></returns>
+        </member>
+        <member name="M:BikeStores.Presentation.Controllers.Sales.CustomersController.CreateCustomerAsync(BikeStores.Contracts.Sales.Customers.CustomerForCreateOrUpdateDTO,System.Threading.CancellationToken)">
+            <summary>
+            Creates customer
+            </summary>
+            <param name="customerCreateRequest">Customer data to create</param>
+            <param name="cancellationToken"></param>
+            <returns></returns>
+        </member>
+        <member name="M:BikeStores.Presentation.Controllers.Sales.CustomersController.UpdateCustomerAsync(System.Int32,BikeStores.Contracts.Sales.Customers.CustomerForCreateOrUpdateDTO,System.Threading.CancellationToken)">
+            <summary>
+            Updates selected customer
+            </summary>
+            <param name="customerId">Customer identifier</param>
+            <param name="storeUpdateRequest">Customer data to update</param>
+            <param name="cancellationToken"></param>
+            <returns></returns>
+        </member>
+        <member name="M:BikeStores.Presentation.Controllers.Sales.CustomersController.DeleteCustomerAsync(System.Int32,System.Threading.CancellationToken)">
+            <summary>
+            Deletes selected customer
+            </summary>
+            <param name="customerId">Customer identifier</param>
+            <param name="cancellationToken"></param>
+            <returns></returns>
+        </member>
+        <member name="T:BikeStores.Presentation.Controllers.Sales.OrdersController">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:BikeStores.Presentation.Controllers.Sales.OrdersController.#ctor(Microsoft.Extensions.Logging.ILogger{BikeStores.Presentation.Controllers.Sales.OrdersController},BikeStores.Services.Abstractions.IServiceManager)">
+            <summary>
+            
+            </summary>
+            <param name="logger"></param>
+            <param name="serviceManager"></param>
+        </member>
+        <member name="M:BikeStores.Presentation.Controllers.Sales.OrdersController.GetOrdersAsync(BikeStores.Contracts.Sales.Orders.OrderFilterRequest,BikeStores.Contracts.PagingRequest{BikeStores.Contracts.Sales.Orders.OrderDTO},System.Threading.CancellationToken)">
+            <summary>
+            Get orders with filtering and paging
+            </summary>
+            <param name="orderFilterRequest">Order data to filter</param>
+            <param name="pagingRequest">Paging parameters</param>
+            <param name="cancellationToken"></param>
+            <returns></returns>
+        </member>
+        <member name="M:BikeStores.Presentation.Controllers.Sales.OrdersController.GetOrderById(System.Int32,System.Threading.CancellationToken)">
+            <summary>
+            Get order with selected id
+            </summary>
+            <param name="orderId">Order id</param>
+            <param name="cancellationToken"></param>
+            <returns></returns>
+        </member>
+        <member name="M:BikeStores.Presentation.Controllers.Sales.OrdersController.CreateOrderAsync(BikeStores.Contracts.Sales.Orders.OrderForCreateDTO,System.Threading.CancellationToken)">
+            <summary>
+            Creates order
+            </summary>
+            <param name="orderCreateRequest">Order data to create</param>
+            <param name="cancellationToken"></param>
+            <returns></returns>
+        </member>
+        <member name="M:BikeStores.Presentation.Controllers.Sales.OrdersController.UpdateOrderAsync(System.Int32,BikeStores.Contracts.Sales.Orders.OrderForUpdateDTO,System.Threading.CancellationToken)">
+            <summary>
+            Updates selected order
+            </summary>
+            <param name="orderId">Order identifier</param>
+            <param name="orderUpdateRequest">Order data to update</param>
+            <param name="cancellationToken"></param>
+            <returns></returns>
+        </member>
+        <member name="M:BikeStores.Presentation.Controllers.Sales.OrdersController.DeleteOrderAsync(System.Int32,System.Threading.CancellationToken)">
+            <summary>
+            Deletes selected order
+            </summary>
+            <param name="orderId">Order identifier</param>
+            <param name="cancellationToken"></param>
+            <returns></returns>
+        </member>
+        <member name="M:BikeStores.Presentation.Controllers.Sales.StaffsController.GetStaffsAsync(BikeStores.Contracts.Sales.Staffs.StaffFilterRequest,BikeStores.Contracts.PagingRequest{BikeStores.Contracts.Sales.Staffs.StaffDTO},System.Threading.CancellationToken)">
+            <summary>
+            Get staffs with filtering and paging
+            </summary>
+            <param name="staffFilterRequest">Staff data to filter</param>
+            <param name="pagingRequest">Paging parameters</param>
+            <param name="cancellationToken"></param>
+            <returns></returns>
+        </member>
+        <member name="M:BikeStores.Presentation.Controllers.Sales.StaffsController.GetStaffById(System.Int32,System.Threading.CancellationToken)">
+            <summary>
+            Get staff with selected id
+            </summary>
+            <param name="staffId">Staff id</param>
+            <param name="cancellationToken"></param>
+            <returns></returns>
+        </member>
+        <member name="M:BikeStores.Presentation.Controllers.Sales.StaffsController.CreateStaffAsync(BikeStores.Contracts.Sales.Staffs.StaffForCreateOrUpdateDTO,System.Threading.CancellationToken)">
+            <summary>
+            Creates staff
+            </summary>
+            <param name="staffCreateRequest">Staff data to create</param>
+            <param name="cancellationToken"></param>
+            <returns></returns>
+        </member>
+        <member name="M:BikeStores.Presentation.Controllers.Sales.StaffsController.UpdateStaffAsync(System.Int32,BikeStores.Contracts.Sales.Staffs.StaffForCreateOrUpdateDTO,System.Threading.CancellationToken)">
+            <summary>
+            Updates selected staff
+            </summary>
+            <param name="staffId">Staff identifier</param>
+            <param name="staffUpdateRequest">Staff data to update</param>
+            <param name="cancellationToken"></param>
+            <returns></returns>
+        </member>
+        <member name="M:BikeStores.Presentation.Controllers.Sales.StaffsController.DeleteStaffAsync(System.Int32,System.Threading.CancellationToken)">
+            <summary>
+            Deletes selected staff
+            </summary>
+            <param name="staffId">Staff identifier</param>
+            <param name="cancellationToken"></param>
+            <returns></returns>
+        </member>
+        <member name="M:BikeStores.Presentation.Controllers.Sales.StaffsController.GetSubordinatesByStaffId(System.Int32,System.Threading.CancellationToken)">
+            <summary>
+            Get subordinates for selected managerId
+            </summary>
+            <param name="staffId">Manager id</param>
+            <param name="cancellationToken"></param>
+            <returns></returns>
+        </member>
+        <member name="M:BikeStores.Presentation.Controllers.Sales.StoresController.GetStoresAsync(BikeStores.Contracts.Sales.Stores.StoreFilterRequest,BikeStores.Contracts.PagingRequest{BikeStores.Contracts.Sales.Stores.StoreDTO},System.Threading.CancellationToken)">
+            <summary>
+            Get stores with filtering and paging
+            </summary>
+            <param name="storeFilterRequest">Store data to filter</param>
+            <param name="pagingRequest">Paging parameters</param>
+            <param name="cancellationToken"></param>
+            <returns></returns>
+        </member>
+        <member name="M:BikeStores.Presentation.Controllers.Sales.StoresController.GetStoreById(System.Int32,System.Threading.CancellationToken)">
+            <summary>
+            Get store with selected id
+            </summary>
+            <param name="storeId">Store id</param>
+            <param name="cancellationToken"></param>
+            <returns></returns>
+        </member>
+        <member name="M:BikeStores.Presentation.Controllers.Sales.StoresController.CreateStoreAsync(BikeStores.Contracts.Sales.Stores.StoreForCreateOrUpdateDTO,System.Threading.CancellationToken)">
+            <summary>
+            Creates store
+            </summary>
+            <param name="storeCreateRequest">Store data to create</param>
+            <param name="cancellationToken"></param>
+            <returns></returns>
+        </member>
+        <member name="M:BikeStores.Presentation.Controllers.Sales.StoresController.UpdateStoreAsync(System.Int32,BikeStores.Contracts.Sales.Stores.StoreForCreateOrUpdateDTO,System.Threading.CancellationToken)">
+            <summary>
+            Updates selected store
+            </summary>
+            <param name="storeId">Store identifier</param>
+            <param name="storeUpdateRequest">Brand data to update</param>
+            <param name="cancellationToken"></param>
+            <returns></returns>
+        </member>
+        <member name="M:BikeStores.Presentation.Controllers.Sales.StoresController.DeleteStoreAsync(System.Int32,System.Threading.CancellationToken)">
+            <summary>
+            Deletes selected store
+            </summary>
+            <param name="storeId">Store identifier</param>
+            <param name="cancellationToken"></param>
+            <returns></returns>
+        </member>
+    </members>
+</doc>
